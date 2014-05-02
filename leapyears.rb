@@ -4,7 +4,7 @@ year = gets.chomp.to_i
 puts "Great! Now how about that ending year?"
 ending_year = gets.chomp.to_i
 
-while year > ending_year
+while year >= ending_year
 	if 
 		year % 4 == 0 or 
 		year % 100 == 0 or 
