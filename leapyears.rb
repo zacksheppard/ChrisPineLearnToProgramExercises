@@ -6,8 +6,8 @@ ending_year = gets.chomp.to_i
 
 while year > ending_year
 	if 
-		year % 4 == 0 and 
-		year % 100 == 0 and 
+		year % 4 == 0 or 
+		year % 100 == 0 or 
 		year % 400 == 0 
 		puts year 
 	end
