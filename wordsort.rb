@@ -13,4 +13,3 @@ loop do
 end
 puts "Nice, lets sort 'em:"
 puts words.sort
-
